@@ -35,5 +35,7 @@ final_result = parser.parse(result.content)
 
 print(final_result)
 
+# This biggest dis-advantage of this aproch is we can't do data validation.
+
 # This is depricated and not available in new version of langchain.
 # we have to use the PydanticOutputParser.
